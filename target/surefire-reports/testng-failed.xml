@@ -7,7 +7,7 @@
         <methods>
           <include name="Update_Created_User_Positive_Test" invocation-numbers="0"/>
           <include name="Create_User_Positive_Test"/>
-          <include name="Create_User_Negative_Test" invocation-numbers="2"/>
+          <include name="Create_User_Negative_Test" invocation-numbers="0 2"/>
           <include name="Get_UserInfo_Negative_Test"/>
         </methods>
       </class> <!-- Tests.PositiveNegativeTests -->

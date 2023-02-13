@@ -14,10 +14,10 @@ import java.io.PrintStream;
 
 public class ListenerLogToAllure implements ITestListener {
 
-    static final   ByteArrayOutputStream request = new ByteArrayOutputStream();
-    static final  ByteArrayOutputStream response = new ByteArrayOutputStream();
-    static final PrintStream requestVar = new PrintStream(request, true);
-    static final PrintStream responseVar = new PrintStream(response, true);
+    private ByteArrayOutputStream request = new ByteArrayOutputStream();
+    private ByteArrayOutputStream response = new ByteArrayOutputStream();
+    private PrintStream requestVar = new PrintStream(request, true);
+    private PrintStream responseVar = new PrintStream(response, true);
 
     public void onStart(final ITestContext context) {
         RestAssured.filters(new ResponseLoggingFilter(LogDetail.ALL, responseVar),
@@ -29,7 +29,7 @@ public class ListenerLogToAllure implements ITestListener {
         logResponse(response);
     }
 
-    public void onTestFailure(ITestResult result) {
+    public void onTestFailure(final ITestResult result) {
         logRequest(request);
         logResponse(response);
     }
