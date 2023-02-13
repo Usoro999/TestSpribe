@@ -1,0 +1,16 @@
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 13 Feb 2023 12:28:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1844234341,
+    "login": "UserUser5",
+    "password": null,
+    "screenName": null,
+    "gender": null,
+    "age": null,
+    "role": null
+}

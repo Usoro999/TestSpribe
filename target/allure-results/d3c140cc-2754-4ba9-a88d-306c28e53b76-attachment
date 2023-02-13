@@ -1,0 +1,17 @@
+Request method:	GET
+Request URI:	http://3.68.165.45/player/create/supervisor?age=60&login=UserUser3&password=qwerty123&screenName=UserScreenName1&gender=male&role=admin
+Proxy:			<none>
+Request params:	age=60
+				login=UserUser3
+				password=qwerty123
+				screenName=UserScreenName1
+				gender=male
+				role=admin
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test_For_SPRIBE]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Tests With Users(failed)" verbose="0">
+    <classes>
+      <class name="Tests.PositiveNegativeTests">
+        <methods>
+          <include name="Update_Created_User_Positive_Test" invocation-numbers="0"/>
+          <include name="Create_User_Positive_Test"/>
+          <include name="Create_User_Negative_Test" invocation-numbers="2"/>
+          <include name="Get_UserInfo_Negative_Test"/>
+        </methods>
+      </class> <!-- Tests.PositiveNegativeTests -->
+    </classes>
+  </test> <!-- Tests With Users(failed) -->
+  <test thread-count="5" parallel="methods" name="Critical Tests With Users(failed)" verbose="0">
+    <classes>
+      <class name="Tests.CriticalTests">
+        <methods>
+          <include name="Can_We_Create_A_New_User_Without_Password"/>
+          <include name="Can_We_Delete_Another_User_As_User"/>
+          <include name="Can_We_Create_A_New_User_That_Is_Exist"/>
+          <include name="Can_We_Update_The_User_As_Admin"/>
+          <include name="Can_We_Create_A_New_User_As_Admin"/>
+        </methods>
+      </class> <!-- Tests.CriticalTests -->
+    </classes>
+  </test> <!-- Critical Tests With Users(failed) -->
+</suite> <!-- Failed suite [Test_For_SPRIBE] -->

@@ -1,0 +1,30 @@
+Request method:	POST
+Request URI:	http://3.68.165.45/player/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "playerId": 1681574813
+}
+Request method:	POST
+Request URI:	http://3.68.165.45/player/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "playerId": 683964468
+}

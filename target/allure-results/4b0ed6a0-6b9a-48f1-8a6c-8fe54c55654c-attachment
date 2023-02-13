@@ -1,0 +1,57 @@
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Mon, 13 Feb 2023 12:29:44 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "players": [
+        {
+            "id": 1,
+            "screenName": "testSupervisor",
+            "gender": "male",
+            "age": 28
+        },
+        {
+            "id": 1162954202,
+            "screenName": "CanWeTakeAConversation",
+            "gender": "male",
+            "age": 33
+        },
+        {
+            "id": 1463761302,
+            "screenName": "CanITakeYourNumberCat",
+            "gender": "male",
+            "age": 30
+        },
+        {
+            "id": 833980211,
+            "screenName": "string",
+            "gender": "string",
+            "age": 19
+        },
+        {
+            "id": 1869114845,
+            "screenName": "screeene",
+            "gender": "female",
+            "age": 0
+        },
+        {
+            "id": 1844234341,
+            "screenName": "UserScreenName3",
+            "gender": "cat",
+            "age": 20
+        },
+        {
+            "id": 1260591924,
+            "screenName": "Racer",
+            "gender": "male",
+            "age": 35
+        }
+    ]
+}
+HTTP/1.1 204 
+Date: Mon, 13 Feb 2023 12:29:44 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive

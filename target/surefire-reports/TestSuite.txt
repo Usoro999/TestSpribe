@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 14.042 s <<< FAILURE! - in TestSuite
+Create_User_Negative_Test(Tests.PositiveNegativeTests)  Time elapsed: 0.104 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at Tests.PositiveNegativeTests.Create_User_Negative_Test(PositiveNegativeTests.java:64)
+
+Get_UserInfo_Negative_Test(Tests.PositiveNegativeTests)  Time elapsed: 0.081 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at Tests.PositiveNegativeTests.Get_UserInfo_Negative_Test(PositiveNegativeTests.java:108)
+
+Update_Created_User_Positive_Test(Tests.PositiveNegativeTests)  Time elapsed: 0.202 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at Tests.PositiveNegativeTests.Update_Created_User_Positive_Test(PositiveNegativeTests.java:129)
+
+Can_We_Create_A_New_User_As_Admin(Tests.CriticalTests)  Time elapsed: 0.074 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at Tests.CriticalTests.Can_We_Create_A_New_User_As_Admin(CriticalTests.java:35)
+
+Can_We_Create_A_New_User_That_Is_Exist(Tests.CriticalTests)  Time elapsed: 0.074 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <200>.
+
+	at Tests.CriticalTests.Can_We_Create_A_New_User_That_Is_Exist(CriticalTests.java:54)
+
+Can_We_Create_A_New_User_Without_Password(Tests.CriticalTests)  Time elapsed: 0.074 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <200>.
+
+	at Tests.CriticalTests.Can_We_Create_A_New_User_Without_Password(CriticalTests.java:88)
+
+Can_We_Update_The_User_As_Admin(Tests.CriticalTests)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at Tests.CriticalTests.Can_We_Update_The_User_As_Admin(CriticalTests.java:132)
+
+Can_We_Delete_Another_User_As_User(Tests.CriticalTests)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <200>.
+
+	at Tests.CriticalTests.Can_We_Delete_Another_User_As_User(CriticalTests.java:106)
+

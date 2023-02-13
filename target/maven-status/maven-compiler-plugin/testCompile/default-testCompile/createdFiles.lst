@@ -1,0 +1,10 @@
+Specifications/Specification.class
+POJOclasses/User.class
+Methods/getUsers.class
+Tests/CriticalTests.class
+Tests/PositiveNegativeTests.class
+DataProviderClass/DataProviderClass.class
+Tests/CleanTest.class
+Methods/deleteUsers.class
+TestData/TestData.class
+TestListener/ListenerLogToAllure.class
