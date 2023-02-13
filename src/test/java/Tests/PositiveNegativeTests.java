@@ -112,8 +112,8 @@ public class PositiveNegativeTests {
             dataProviderClass = DataProviderClass.class, dependsOnMethods = "Create_User_Positive_Test")
     public void Update_Created_User_Positive_Test(String supervisor, String admin, String user) {
         Specification.installSpecification(Specification.requestSpecification(TestData.url), Specification.responseSpec200());
-        createdUser.setScreenName("Alibaba");
 
+        createdUser.setScreenName("Alibaba");
         given()
                 .body(createdUser)
                 .when()
